@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     "allauth.account",
     "accounts",
     "pages",
+    "books",
 ]
 
 SITE_ID = 1

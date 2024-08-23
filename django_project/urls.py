@@ -8,6 +8,7 @@ urlpatterns = [
     # path("accounts/", include("accounts.urls")), 
 
     path("accounts/", include("allauth.urls")), # use auth django-allauth
-
     path('', include("pages.urls")),
+    path("books/", include("books.urls")), 
+
 ]
