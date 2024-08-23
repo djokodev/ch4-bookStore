@@ -46,6 +46,9 @@ AUTHENTICATION_BACKENDS = (
 EMAIL_BACKEND = (
     "django.core.mail.backends.console.EmailBackend"  # ideale pour le une version dev
 )
+
+DEFAULT_FROM_EMAIL = "admin@djangobookstore.com"
+
 ACCOUNT_SESSION_REMEMBER = True
 ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False  # Cela configure django-allauth pour demander le mot de passe une seule fois lors de l'inscription, simplifiant ainsi le processus pour l'utilisateur.
 ACCOUNT_USERNAME_REQUIRED = False
